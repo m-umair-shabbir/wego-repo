@@ -1,0 +1,16 @@
+{
+  "family": "wego-app",
+  "containerDefinitions": [
+    {
+      "name": "wego-app",
+      "image": "umairok/test_app:v2",
+      "memory": 128,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  ]
+}
